@@ -1,8 +1,11 @@
-var div = document.createElement("DIV");	//create div element
-div.id = "pickleRick";		//give div element id
+//create div element and assign div id
+var div = document.createElement("DIV");	
+div.id = "pickleRick";		
 
-var img = document.createElement("IMG");	//create img element
-img.src = chrome.runtime.getURL('img/front-pickle.png');	//get img src
+//create img element and provided img source
+var img = document.createElement("IMG");
+img.src = chrome.runtime.getURL('img/front-pickle.png');
 
-div.appendChild(img);	//add img to div
-document.body.appendChild(div);		//add div to body
+//added img to div and then add div to body
+div.appendChild(img);
+document.body.appendChild(div);	
