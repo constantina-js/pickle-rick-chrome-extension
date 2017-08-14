@@ -7,5 +7,20 @@
 
   "browser_action": {
     "default_icon": "icon.png"
-  }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["pickle.css"],
+      "js": ["pickle.js"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    "img/*",
+    "pickle.css",
+    "pickle.js"
+  ]
+
 }

@@ -9,3 +9,5 @@ img.src = chrome.runtime.getURL('img/front-pickle.png');
 //added img to div and then add div to body
 div.appendChild(img);
 document.body.appendChild(div);	
+
+console.log("Pickle RICKKKKK")
