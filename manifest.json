@@ -9,6 +9,10 @@
     "default_icon": "icon.png"
   },
 
+    "permissions": [
+      "tabs", "http://*/*", "*://*/*"
+  ],
+
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -20,7 +24,7 @@
   "web_accessible_resources": [
     "img/*",
     "pickle.css",
-    "pickle.js"
+    "pickle.js",
   ]
 
 }

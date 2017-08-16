@@ -3,3 +3,7 @@
 	right: 0px;
 	bottom: 0px;
 }
+
+#pickleRickImg:hover{
+	cursor:pointer;
+}
