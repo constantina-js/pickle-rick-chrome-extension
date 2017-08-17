@@ -23,8 +23,9 @@
 
   "web_accessible_resources": [
     "img/*",
+    "mp3/*",
     "pickle.css",
-    "pickle.js",
+    "pickle.js"
   ]
 
 }
